@@ -33,15 +33,15 @@ __author__ = 'nzhouseofreps@gmail.com (NZ house of reps)'
 
 # OAuth 2.0 Client Settings
 AUTH_CONFIG = {
-    'OAUTH_CLIENT_ID': '742357081841-gdovo1s4nb7ucc4cs446bj4n34bn7c04.apps.googleusercontent.com',
-    'OAUTH_CLIENT_SECRET': 'zy0fp9UkE0UbPwfoV_lE8A6J',
+    'OAUTH_CLIENT_ID': '690066126714-m7n3bslpiv960jlhe6ocvdifockfpldp.apps.googleusercontent.com',
+    'OAUTH_CLIENT_SECRET': 'c2lUwwIfajuVXrbA-sJ1zxln',
 
     # E.g. Local Dev Env on port 8080: http://localhost:8080
     # E.g. Hosted on App Engine: https://your-application-id.appspot.com
     'OAUTH_REDIRECT_URI': '%s%s' % (
-        'https://parliamentanalytics-159403.appspot.com',
+        'http://localhost:8080',
         '/admin/auth')
 }
 
 # XSRF Settings
-XSRF_KEY = 'fghfghgfhfghfghhhhvcxcvxcvhhcxvxcvhh'
+XSRF_KEY = 'Parliament123'
